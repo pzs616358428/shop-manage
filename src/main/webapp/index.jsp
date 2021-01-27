@@ -3,9 +3,11 @@
   User: pzs
   Date: 2021/1/27
   Time: 10:32
-  To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    request.getRequestDispatcher("/WEB-INF/views/index.jsp").forward(request, response);
+%>
 <html>
 <head>
     <title>电商管理系统</title>
