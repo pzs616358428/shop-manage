@@ -6,13 +6,6 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-    request.getRequestDispatcher("/WEB-INF/views/index.jsp").forward(request, response);
+    // 转发到根页面,转发的根目录是contextPath
+    request.getRequestDispatcher("/index/index").forward(request, response);
 %>
-<html>
-<head>
-    <title>电商管理系统</title>
-</head>
-<body>
-    <p>项目首页</p>
-</body>
-</html>
