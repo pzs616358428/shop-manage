@@ -635,7 +635,7 @@ layui.define('view', function(exports){
     ,index = othis.index();
     
     admin.tabsBodyChange(index);
-    location.hash = layid === setter.entry ? '/' : attr;
+    // location.hash = layid === setter.entry ? '/' : attr;
   }
   ,TABS_HEADER = '#LAY_app_tabsheader>li';
   
