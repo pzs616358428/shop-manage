@@ -4,3 +4,4 @@
 spring版本为5.2.12.RELEASE
 mybatis版本为3.5.6
 layui版本为2.5.7
+layui准备升级到2.6.6
